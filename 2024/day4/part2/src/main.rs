@@ -18,7 +18,6 @@ fn create_matrix(input: String) -> Vec<Vec<char>> {
 fn find_string(matrix: Vec<Vec<char>>,l: i32) -> i32 {
     let mut reps = 0;
     
-    // scan from start to end row wise
     let mut j = 1;
     let l = l as usize;
     while j < l-1 {
